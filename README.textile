@@ -1,0 +1,3 @@
+h1. is_in_focus.js
+
+This is a proof of concept. I needed a way to detect if an element was in focus before I had a chance to run any javascript and say set an onFocus handler.

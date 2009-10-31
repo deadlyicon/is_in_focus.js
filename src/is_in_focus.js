@@ -1,6 +1,6 @@
 (function(window) {
   
-  window.getStyle = function getStyle(x,styleProp){
+  function getStyle(x,styleProp){
     if (x.currentStyle)
       var y = x.currentStyle[styleProp];
     else if (window.getComputedStyle)
@@ -9,7 +9,7 @@
   }
   
   function is_in_focus(element){
-    return getStyle(element, 'list-style-image') == "url(http://focused.example.com/)"
+    return getStyle(element, 'list-style-image') == "url(http://focused/)";
   }
   
   window.is_in_focus = is_in_focus;
