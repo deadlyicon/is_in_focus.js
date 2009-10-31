@@ -1,0 +1,3 @@
+*:focus{
+  list-style-image: url("http://focused.example.com") !important;
+}
